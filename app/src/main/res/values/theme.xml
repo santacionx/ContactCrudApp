@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Light Theme -->
+    <style name="Base.Theme.RecycleApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <!-- Add other attributes as needed -->
+    </style>
+
+    <!-- Dark Theme -->
+    <style name="Base.Theme.RecycleApp.Dark" parent="Base.Theme.RecycleApp">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">@color/darkPrimaryColor</item>
+        <!-- Add other attributes as needed -->
+    </style>
+
+    <!-- Night Theme -->
+    <style name="Base.Theme.RecycleApp.Night" parent="Base.Theme.RecycleApp">
+        <!-- Customize your night theme here. -->
+        <item name="colorPrimary">@color/nightPrimaryColor</item>
+        <!-- Add other attributes as needed -->
+    </style>
+
+    <!-- App's main theme -->
+    <style name="Theme.RecycleApp" parent="Base.Theme.RecycleApp" />
+</resources>
