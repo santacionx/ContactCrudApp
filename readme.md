@@ -1,6 +1,6 @@
 # Contact List App
 
-![App Logo](s1.png)
+![App Logo](s4.png)
 
 This is a simple contact list Android application built to showcase the implementation of a RecyclerView, animations, and CRUD (Create, Read, Update, Delete) operations.
 
@@ -12,7 +12,7 @@ This is a simple contact list Android application built to showcase the implemen
 
 ![Screenshot 1](s2.png)
 
-
+![App Logo](s1.png)
 
 
 Clone the repository using the following command:

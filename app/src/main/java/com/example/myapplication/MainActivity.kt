@@ -11,6 +11,8 @@ import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import android.os.Handler
 import android.os.Looper
+import android.widget.ImageButton
+import androidx.appcompat.widget.Toolbar;
 
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -26,6 +28,15 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        val toolbar: Toolbar = findViewById(R.id.toolbar)
+        setSupportActionBar(toolbar)
+
+        val closeButton: ImageButton = findViewById(R.id.close_button)
+        closeButton.setOnClickListener {
+            showExitConfirmation()
+        }
+        supportActionBar?.title = "Contact App"
 
         // Toggle button click method
         val button =
